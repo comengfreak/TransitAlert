@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 266 entries, up to version 1.103.205. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 267 entries, up to version 1.103.206. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 62 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 63 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 266 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.206 · Fewer map crashes on iPhone
+<sub>24 November 2026</sub>
+
+- Fixed a crash on iPhone ("The object can not be found here") when part of the map page was moved by something outside the app, like Safari's Translate or a map popup closing at the wrong moment.
+- Crash reports now say which part of the screen broke (by its name in the code, nothing about you), so they can be fixed faster.
 
 ### v1.103.205 · Door sides at Box Hill and Blackburn
 <sub>24 November 2026</sub>
