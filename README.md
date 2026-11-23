@@ -44,7 +44,7 @@ Almost everything is free. Premium is a one-off purchase in the Android app, nev
 
 ## Built by
 
-Made in Melbourne by [@comengfreak](https://www.instagram.com/comengfreak/), a train fan who wanted the app he couldn't find anywhere else. Updates ship constantly.
+Made in Melbourne by [@comengfreak](https://www.instagram.com/comengfreak/), a train fan who wanted the app she couldn't find anywhere else. Updates ship constantly.
 
 ---
 
