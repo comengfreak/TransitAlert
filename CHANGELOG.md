@@ -1,8 +1,14 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 261 entries, from the first commit on 13 April 2026 to version 1.103.200. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 262 entries, from the first commit on 13 April 2026 to version 1.103.201. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.201 · Seven more languages
+<sub>24 November 2026</sub>
+
+- Settings → Language now has 繁體中文, Tiếng Việt, Ελληνικά, Italiano, हिन्दी, Español and Français as well as English and 简体中文. The menu, departure boards, countdowns and train notes are translated; the rest of the app stays in English for now. Station and line names always match the signs.
+- "5 min ago" now reads the right way round in every language ("il y a 5 min", "hace 5 min").
 
 ### v1.103.200 · Disruptions for widgets
 <sub>24 November 2026</sub>

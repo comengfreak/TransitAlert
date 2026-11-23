@@ -37,17 +37,17 @@
 
 **🚆 Made for train fans.** Live Fleet tracking for every set, history and stabling, favourites with a push when they come out, platform displays, heritage runs and Station Passport.
 
-**♿ For everyone.** Step-free routes, low-floor tram stops, lift outages, Simple mode, screen reader support, and English and 简体中文.
+**♿ For everyone.** Step-free routes, low-floor tram stops, lift outages, Simple mode, screen reader support, and nine languages: English, 简体中文, 繁體中文, Tiếng Việt, Ελληνικά, Italiano, हिन्दी, Español and Français.
 
 ## Latest updates
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.201** | 24 Nov 2026 | Seven more languages |
 | **1.103.200** | 24 Nov 2026 | Disruptions for widgets |
 | **1.103.199** | 24 Nov 2026 | Getting ready for iPhone |
 | **1.103.198** | 24 Nov 2026 | A What's happening? menu for rider reports on board |
 | **1.103.197** | 23 Nov 2026 | On-time figures that keep counting |
-| **1.103.196** | 23 Nov 2026 | Truer numbers: measured platform dwell, on-time figures counted trip by trip |
 
 📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
 
