@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.206** | 24 Nov 2026 | Fewer map crashes on iPhone |
 | **1.103.205** | 24 Nov 2026 | Door sides at Box Hill and Blackburn |
 | **1.103.204** | 24 Nov 2026 | Loop trains say Flinders Street |
 | **1.103.203** | 24 Nov 2026 | Know which way it's going at Richmond |
 | **1.103.202** | 24 Nov 2026 | Tidier boards in Hindi, Greek and French |
-| **1.103.201** | 24 Nov 2026 | Seven more languages |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
