@@ -43,13 +43,13 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.205** | 24 Nov 2026 | Door sides at Box Hill and Blackburn |
 | **1.103.204** | 24 Nov 2026 | Loop trains say Flinders Street |
 | **1.103.203** | 24 Nov 2026 | Know which way it's going at Richmond |
 | **1.103.202** | 24 Nov 2026 | Tidier boards in Hindi, Greek and French |
 | **1.103.201** | 24 Nov 2026 | Seven more languages |
-| **1.103.200** | 24 Nov 2026 | Disruptions for widgets |
 
-📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
+📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**
 
 ## Free, with one-off Premium
 
