@@ -49,7 +49,8 @@
 | **1.103.202** | 24 Nov 2026 | Tidier boards in Hindi, Greek and French |
 | **1.103.201** | 24 Nov 2026 | Seven more languages |
 
-📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**
+📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
+Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
 
 ## Free, with one-off Premium
 
