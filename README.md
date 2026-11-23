@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://transit-alert.com"><img alt="Open the web app" src="https://img.shields.io/badge/Open%20the%20app-transit--alert.com-16B4E8?style=for-the-badge"></a>
   <a href="https://play.google.com/store/apps/details?id=app.floot.u444d0d60f01f4a67a474ba6f61aabb9f"><img alt="Get it on Google Play" src="https://img.shields.io/badge/Google%20Play-Download-1FA34A?style=for-the-badge&logo=googleplay&logoColor=white"></a>
+  <img alt="Apple App Store: coming soon" src="https://img.shields.io/badge/App%20Store-Coming%20soon-555555?style=for-the-badge&logo=apple&logoColor=white">
   <a href="https://www.instagram.com/transit.alert/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-@transit.alert-F178AF?style=for-the-badge&logo=instagram&logoColor=white"></a>
 </p>
 
@@ -42,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.197** | 23 Nov 2026 | On-time figures that keep counting |
 | **1.103.196** | 23 Nov 2026 | Truer numbers: measured platform dwell, on-time figures counted trip by trip |
 | **1.103.195** | 23 Nov 2026 | V/Line coaches in the trip planner; follow a bus by its rego |
 | **1.103.194** | 23 Nov 2026 | Straighter answers for far-flung trips |
 | **1.103.193** | 23 Nov 2026 | Follow two vehicles for free |
-| **1.103.192** | 23 Nov 2026 | Better trips to places far from a train |
 
 📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
 

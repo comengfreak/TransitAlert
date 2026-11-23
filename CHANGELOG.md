@@ -1,8 +1,13 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 257 entries, from the first commit on 13 April 2026 to version 1.103.196. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 258 entries, from the first commit on 13 April 2026 to version 1.103.197. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.197 · On-time figures that keep counting
+<sub>23 November 2026</sub>
+
+- Fixed the new trip-by-trip "usually on time" figures, which weren't saving any trips. They now build up as trips finish, and routes switch over to them once there's enough history.
 
 ### v1.103.196 · Truer numbers
 <sub>23 November 2026</sub>
