@@ -1,8 +1,13 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 259 entries, from the first commit on 13 April 2026 to version 1.103.198. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 260 entries, from the first commit on 13 April 2026 to version 1.103.199. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.199 · Getting ready for iPhone
+<sub>24 November 2026</sub>
+
+- Behind the scenes: the app now knows whether it's running on Android, iPhone or the web, so the coming iPhone app won't show Google Play buttons.
 
 ### v1.103.198 · Tell riders what's happening on board
 <sub>24 November 2026</sub>
