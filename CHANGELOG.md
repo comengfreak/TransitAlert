@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 267 entries, up to version 1.103.206. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 268 entries, up to version 1.103.207. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 63 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 64 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 267 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.207 · No more few-second freezes
+<sub>24 November 2026</sub>
+
+- Fixed the app sometimes freezing for 1 to 9 seconds for everyone. Saving train history from the live map waited on another part of the app writing to the same file; now it saves every 30 seconds instead of on every map refresh, and never waits.
+- Morning Hurstbridge and Mernda line trains that go round the City Loop now say they become the next train at Parliament, where they really turn round, not at Flinders Street.
 
 ### v1.103.206 · Fewer map crashes on iPhone
 <sub>24 November 2026</sub>
