@@ -1,8 +1,22 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 263 entries, from the first commit on 13 April 2026 to version 1.103.202. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 265 entries, from the first commit on 13 April 2026 to version 1.103.204. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.204 · Loop trains say Flinders Street
+<sub>24 November 2026</sub>
+
+- City-bound trains that run round the City Loop now show "Flinders Street" instead of "City Loop service", with "Flinders Street first, then round the City Loop" underneath. Thanks to a rider at Clifton Hill for the feedback.
+
+### v1.103.203 · Know which way it's going at Richmond
+<sub>24 November 2026</sub>
+
+- Departure boards now say how a city-bound train gets to Flinders Street: "City Loop first (next stop Parliament)", "Flinders Street first, then round the City Loop" or "Straight to Flinders Street".
+- Express trains say where they run without stopping, like "Express: stops at Glenferrie, Camberwell, then all stations (skips 4)".
+- City-bound trains starting part way along a shared line say which line they're on ("Lilydale line · from Ringwood"), and "a Alamein train" is now "an Alamein train".
+- 6-car trains that change lines at Flinders Street (a Hurstbridge train becoming a Belgrave one) no longer show as 3 cars when the live feed drops the second set.
+- Train panels have a "Wrong set or car count?" link right under the consist, so riders on board can tell us what's really there.
 
 ### v1.103.202 · Tidier boards in Hindi, Greek and French
 <sub>24 November 2026</sub>

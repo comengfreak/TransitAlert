@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.204** | 24 Nov 2026 | Loop trains say Flinders Street |
+| **1.103.203** | 24 Nov 2026 | Know which way it's going at Richmond |
 | **1.103.202** | 24 Nov 2026 | Tidier boards in Hindi, Greek and French |
 | **1.103.201** | 24 Nov 2026 | Seven more languages |
 | **1.103.200** | 24 Nov 2026 | Disruptions for widgets |
-| **1.103.199** | 24 Nov 2026 | Getting ready for iPhone |
-| **1.103.198** | 24 Nov 2026 | A What's happening? menu for rider reports on board |
 
 📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
 
