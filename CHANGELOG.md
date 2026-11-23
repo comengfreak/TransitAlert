@@ -1,8 +1,13 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 260 entries, from the first commit on 13 April 2026 to version 1.103.199. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 261 entries, from the first commit on 13 April 2026 to version 1.103.200. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.200 · Disruptions for widgets
+<sub>24 November 2026</sub>
+
+- Behind the scenes: the home-screen widget feed now carries the most serious disruption on your stop's lines, ready for the iPhone lock screen and line-status widgets. Saved stops use the same check, so both always agree.
 
 ### v1.103.199 · Getting ready for iPhone
 <sub>24 November 2026</sub>
