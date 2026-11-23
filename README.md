@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.198** | 24 Nov 2026 | A What's happening? menu for rider reports on board |
 | **1.103.197** | 23 Nov 2026 | On-time figures that keep counting |
 | **1.103.196** | 23 Nov 2026 | Truer numbers: measured platform dwell, on-time figures counted trip by trip |
 | **1.103.195** | 23 Nov 2026 | V/Line coaches in the trip planner; follow a bus by its rego |
 | **1.103.194** | 23 Nov 2026 | Straighter answers for far-flung trips |
-| **1.103.193** | 23 Nov 2026 | Follow two vehicles for free |
 
 📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
 

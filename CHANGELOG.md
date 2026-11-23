@@ -1,8 +1,13 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 258 entries, from the first commit on 13 April 2026 to version 1.103.197. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 259 entries, from the first commit on 13 April 2026 to version 1.103.198. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.198 · Tell riders what's happening on board
+<sub>24 November 2026</sub>
+
+- "On this service now" has a What's happening? menu with more to report: running slow, plenty of seats, dirty or a spill, antisocial behaviour, smoking or vaping, a blocked wheelchair space or a door out of order, as well as stopped, crowded, incidents and broken aircon.
 
 ### v1.103.197 · On-time figures that keep counting
 <sub>23 November 2026</sub>
