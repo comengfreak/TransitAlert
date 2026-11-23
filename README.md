@@ -38,6 +38,18 @@
 
 **♿ For everyone.** Step-free routes, low-floor tram stops, lift outages, Simple mode, screen reader support, and English and 简体中文.
 
+## Latest updates
+
+| Version | Date | What changed |
+| --- | --- | --- |
+| **1.103.196** | 23 Nov 2026 | Truer numbers: measured platform dwell, on-time figures counted trip by trip |
+| **1.103.195** | 23 Nov 2026 | V/Line coaches in the trip planner; follow a bus by its rego |
+| **1.103.194** | 23 Nov 2026 | Straighter answers for far-flung trips |
+| **1.103.193** | 23 Nov 2026 | Follow two vehicles for free |
+| **1.103.192** | 23 Nov 2026 | Better trips to places far from a train |
+
+📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
+
 ## Free, with one-off Premium
 
 Almost everything is free. Premium is a one-off purchase in the Android app, never a subscription.
