@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://transit-alert.com"><img alt="Open the web app" src="https://img.shields.io/badge/Open%20the%20app-transit--alert.com-16B4E8?style=for-the-badge"></a>
-  <a href="https://play.google.com/store/apps/details?id=app.floot.u444d0d60f01f4a67a474ba6f61aabb9f"><img alt="Get it on Google Play" src="https://img.shields.io/badge/Google%20Play-Download-1FA34A?style=for-the-badge&logo=googleplay&logoColor=white"></a>
+  <a href="https://transit-alert.com/play?from=github"><img alt="Get it on Google Play" src="https://img.shields.io/badge/Google%20Play-Download-1FA34A?style=for-the-badge&logo=googleplay&logoColor=white"></a>
   <img alt="Apple App Store: coming soon" src="https://img.shields.io/badge/App%20Store-Coming%20soon-555555?style=for-the-badge&logo=apple&logoColor=white">
   <a href="https://www.instagram.com/transit.alert/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-@transit.alert-F178AF?style=for-the-badge&logo=instagram&logoColor=white"></a>
 </p>
@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.202** | 24 Nov 2026 | Tidier boards in Hindi, Greek and French |
 | **1.103.201** | 24 Nov 2026 | Seven more languages |
 | **1.103.200** | 24 Nov 2026 | Disruptions for widgets |
 | **1.103.199** | 24 Nov 2026 | Getting ready for iPhone |
 | **1.103.198** | 24 Nov 2026 | A What's happening? menu for rider reports on board |
-| **1.103.197** | 23 Nov 2026 | On-time figures that keep counting |
 
 📜 **[Full changelog: every version since day one →](CHANGELOG.md)**
 

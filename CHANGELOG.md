@@ -1,8 +1,14 @@
 # TransitAlert changelog
 
-Every TransitAlert update, newest first: 262 entries, from the first commit on 13 April 2026 to version 1.103.201. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update, newest first: 263 entries, from the first commit on 13 April 2026 to version 1.103.202. The same notes appear in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## November 2026
+
+### v1.103.202 · Tidier boards in Hindi, Greek and French
+<sub>24 November 2026</sub>
+
+- The "Scheduled" status is shorter in Hindi, Greek and French, so it no longer runs out of its column on the departure board.
+- transit-alert.com/play is a short link to TransitAlert on Google Play, easy to share.
 
 ### v1.103.201 · Seven more languages
 <sub>24 November 2026</sub>
