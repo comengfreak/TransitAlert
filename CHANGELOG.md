@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 269 entries, up to version 1.103.208. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 270 entries, up to version 1.103.209. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 65 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 66 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,11 @@ Every TransitAlert update since the first commit on 13 April 2026: 269 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.209 · Ticket checks: know your rights
+<sub>24 November 2026</sub>
+
+- New page in the menu (More → Ticket checks: your rights): what authorised officers can and can't ask for, that you can ask to see their ID, that they can't search your bags, how to complain if you're treated badly, and how to ask for a review of a fine. Every point links to the official page it comes from.
 
 ### v1.103.208 · Through trains to Sandringham
 <sub>24 November 2026</sub>

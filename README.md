@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.209** | 24 Nov 2026 | Ticket checks: know your rights |
 | **1.103.208** | 24 Nov 2026 | Through trains to Sandringham |
 | **1.103.207** | 24 Nov 2026 | No more few-second freezes |
 | **1.103.206** | 24 Nov 2026 | Fewer map crashes on iPhone |
 | **1.103.205** | 24 Nov 2026 | Door sides at Box Hill and Blackburn |
-| **1.103.204** | 24 Nov 2026 | Loop trains say Flinders Street |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
