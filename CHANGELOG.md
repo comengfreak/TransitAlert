@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 280 entries, up to version 1.103.219. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 281 entries, up to version 1.103.220. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 76 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 77 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,13 @@ Every TransitAlert update since the first commit on 13 April 2026: 280 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.220 · V/Line trains stay on the map without GPS
+<sub>24 November 2026</sub>
+
+- Map: V/Line trains that are running but not sending GPS (their position feed drops out often, and some trains never report) used to vanish. They now show faded where their live times put them, along the real track, marked "Estimated". Only trains V/Line's live feed says are running are shown, so a cancelled train isn't drawn, and each one switches to its real position as soon as it reports.
+- Showgrounds and Flemington Racecourse: special-event trains now show platform 1 when PTV leaves the platform blank. Both stations only have the one platform.
+- Bus fleet: 14 more buses identified from the operators' published fleet lists, including Ventura's BYD electric 1623.
 
 ### v1.103.219 · Stop lists start at the right station
 <sub>24 November 2026</sub>
