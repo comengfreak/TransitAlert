@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 273 entries, up to version 1.103.212. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 274 entries, up to version 1.103.213. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 69 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 70 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,11 @@ Every TransitAlert update since the first commit on 13 April 2026: 273 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.213 · The real stickers
+<sub>24 November 2026</sub>
+
+- The Stickers theme now uses the actual TransitAlert stickers (square, round and holo) in page headers, with colours to match them: deep purple, magenta and the app icon's sky blue, and a holographic stripe across the top.
 
 ### v1.103.212 · Clearer old cancellation notices
 <sub>24 November 2026</sub>
