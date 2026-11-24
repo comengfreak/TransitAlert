@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 279 entries, up to version 1.103.218. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 280 entries, up to version 1.103.219. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 75 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 76 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,11 @@ Every TransitAlert update since the first commit on 13 April 2026: 279 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.219 · Stop lists start at the right station
+<sub>24 November 2026</sub>
+
+- Departure boards: a train's stops were sometimes worked out from the station before yours (Glenroy's from Jacana, Northcote's from Merri) when stations are under a minute apart, which could throw off the Loop and express notes. They now start from your station.
 
 ### v1.103.218 · Cancellations that say which train, and go away
 <sub>24 November 2026</sub>
