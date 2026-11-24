@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 278 entries, up to version 1.103.217. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 279 entries, up to version 1.103.218. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 74 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 75 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 278 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.218 · Cancellations that say which train, and go away
+<sub>24 November 2026</sub>
+
+- When PTV posts a cancellation without saying which train, TransitAlert names it from the live feed, even after that train's time has passed ("Cancelled earlier: the 7:42 am Mernda to Flinders Street").
+- Those notices no longer hang around all day: once the cancelled trains have gone and nothing else on the line is cancelled, the notice is retired and the line goes back to good service.
 
 ### v1.103.217 · Reports only from riders on board
 <sub>24 November 2026</sub>

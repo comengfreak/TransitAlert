@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.218** | 24 Nov 2026 | Cancellations that say which train, and go away |
 | **1.103.217** | 24 Nov 2026 | Reports only from riders on board |
 | **1.103.216** | 24 Nov 2026 | "You are here" on the platform display |
 | **1.103.215** | 24 Nov 2026 | PIDs end where the train ends |
 | **1.103.214** | 24 Nov 2026 | A short link for stickers |
-| **1.103.213** | 24 Nov 2026 | The real stickers |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
