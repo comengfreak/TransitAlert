@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 274 entries, up to version 1.103.213. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 276 entries, up to version 1.103.215. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 70 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 72 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,16 @@ Every TransitAlert update since the first commit on 13 April 2026: 274 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.215 · PIDs end where the train ends
+<sub>24 November 2026</sub>
+
+- Platform display: a city-bound train signed to Flinders Street now lists its stops to Flinders Street. It used to carry on through Southern Cross to Parliament, which is the next service going round the Loop.
+
+### v1.103.214 · A short link for stickers
+<sub>24 November 2026</sub>
+
+- transit-alert.com/s opens the app, for QR codes on stickers. Scans are counted only as an anonymous daily total, like page views.
 
 ### v1.103.213 · The real stickers
 <sub>24 November 2026</sub>
