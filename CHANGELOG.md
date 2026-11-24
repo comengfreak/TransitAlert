@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 272 entries, up to version 1.103.211. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 273 entries, up to version 1.103.212. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 68 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 69 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 272 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.212 · Clearer old cancellation notices
+<sub>24 November 2026</sub>
+
+- When PTV's "Cancellation" notice doesn't name a train and nothing on that line is showing as cancelled, the notice now says so and when PTV posted it, so an old morning notice doesn't look like it's still happening.
+- Stickers theme: smaller stickers on phones, so page titles keep their room.
 
 ### v1.103.211 · Disruptions that say something
 <sub>24 November 2026</sub>

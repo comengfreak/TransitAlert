@@ -43,11 +43,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.212** | 24 Nov 2026 | Clearer old cancellation notices |
 | **1.103.211** | 24 Nov 2026 | Disruptions that say something |
 | **1.103.210** | 24 Nov 2026 | Better themes, snow and stickers |
 | **1.103.209** | 24 Nov 2026 | Ticket checks: know your rights |
 | **1.103.208** | 24 Nov 2026 | Through trains to Sandringham |
-| **1.103.207** | 24 Nov 2026 | No more few-second freezes |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
