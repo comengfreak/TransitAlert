@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 270 entries, up to version 1.103.209. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 272 entries, up to version 1.103.211. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 66 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 68 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,20 @@ Every TransitAlert update since the first commit on 13 April 2026: 270 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.211 · Disruptions that say something
+<sub>24 November 2026</sub>
+
+- When PTV posts a disruption that just says "Cancellation", TransitAlert now lists the trains the live feed shows as cancelled on that line, with times. If it can't tell, it says so and points you to the departure boards.
+- "Full details on Transport Victoria" only shows when there's a real page about that disruption. It used to link to PTV's general updates page.
+
+### v1.103.210 · Better themes, snow and stickers
+<sub>24 November 2026</sub>
+
+- Every theme has its own livery stripe across the top of the screen and an accent line under page titles: Connex blue, white and red, Comeng stainless and orange, Evie hazard stripes and more.
+- Christmas now has gently falling snow. It never gets in the way of a tap, and it's off if your phone is set to reduce motion.
+- New free theme: Stickers. Bright pink, yellow and blue, rounder corners, stuck-on shadows and a few stickers in page headers.
+- Easier-to-read buttons in the Connex, Christmas and Retro regional themes.
 
 ### v1.103.209 · Ticket checks: know your rights
 <sub>24 November 2026</sub>
