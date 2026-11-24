@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 281 entries, up to version 1.103.220. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 285 entries, up to version 1.103.224. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 77 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 81 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,28 @@ Every TransitAlert update since the first commit on 13 April 2026: 281 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.224 · Cleaner sky on the app icon
+<sub>25 November 2026</sub>
+
+- Icon: the sky's colour bands now blend with an even checker instead of a jagged edge.
+
+### v1.103.223 · App icon touch-up
+<sub>25 November 2026</sub>
+
+- Icon: tidier overhead wiring, and the fence behind the track is now see-through chain mesh.
+
+### v1.103.222 · New app icon
+<sub>25 November 2026</sub>
+
+- New icon: a hand-made pixel-art Comeng (430M) in place of the AI-generated one, with a squarer cab face, a pantograph up to the wire, a see-through fence and the suburbs behind. It's on the website, the home-screen app and the Android and iPhone builds.
+
+### v1.103.221 · Platform display links by station name
+<sub>24 November 2026</sub>
+
+- Platform display: a link with the station's name (/pid?station=Richmond or flinders-street) now opens that station's screen, not the station picker.
+- Bus fleet: 6 more buses identified from Bendigo, Latrobe Valley, Geelong and Transit Systems fleet lists.
+- Behind the scenes: Cloudflare's cookie-free visit counter was being blocked by the site's own security settings. It now runs, and the privacy policy says so.
 
 ### v1.103.220 · V/Line trains stay on the map without GPS
 <sub>24 November 2026</sub>
