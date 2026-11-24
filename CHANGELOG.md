@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 276 entries, up to version 1.103.215. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 278 entries, up to version 1.103.217. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 72 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 74 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,21 @@ Every TransitAlert update since the first commit on 13 April 2026: 276 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.217 · Reports only from riders on board
+<sub>24 November 2026</sub>
+
+- "What's happening?" reports now need you to actually be on that train, tram or bus: your phone takes two location readings about 15 seconds apart and they're checked against the service's live position. Your location is only used for that check and is never saved.
+- Trains, trams and buses on the map now keep gliding between position updates instead of moving, stopping and moving again. Thanks to a rider for the feedback.
+- Map labels read a train's cars in order, unit by unit (433M-1067T-434M + 518M-1126T-551M).
+
+### v1.103.216 · "You are here" on the platform display
+<sub>24 November 2026</sub>
+
+- Platform display: the stop list now starts at the station you're at, marked "You are here", and shows every station the train runs straight through after it. Stations skipped right after yours used to go missing.
+- Platform display: tell it which car your screen lines up with (You are at car 1–7) and the train diagram marks it, and warns when a shorter train stops short of you.
+- Express trains now say what they skip ("Express: skips East Richmond") or the stretch they run without stopping ("Camberwell → Richmond"), instead of listing every stop.
+- Stickers theme: three of the new stickers in page headers ("Go on. Delete the other one.", "The tram is NOT 2 mins away" and "I have never run for a train*"), bigger on desktop.
 
 ### v1.103.215 · PIDs end where the train ends
 <sub>24 November 2026</sub>
