@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 285 entries, up to version 1.103.224. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 286 entries, up to version 1.103.225. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 81 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 82 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 285 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.225 · Housekeeping
+<sub>26 November 2026</sub>
+
+- Privacy policy: the date at the top now says when it last changed (24 November, when the cookie-free visit counter was added).
+- Behind the scenes: Metro's alert feed sometimes names stops "1", "2" and "3", which aren't real stations. TransitAlert no longer asks PTV for their names every few minutes.
 
 ### v1.103.224 · Cleaner sky on the app icon
 <sub>25 November 2026</sub>
