@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 286 entries, up to version 1.103.225. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 291 entries, up to version 1.103.230. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 82 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 87 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,40 @@ Every TransitAlert update since the first commit on 13 April 2026: 286 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.230 · Who makes TransitAlert
+<sub>26 November 2026</sub>
+
+- About: a new section on who makes TransitAlert (comengfreak, a Melbourne train fan and spotter) and where to follow along.
+- Behind the scenes: search engines and AI assistants now get a clear summary of what TransitAlert is, who makes it and where to get it.
+
+### v1.103.229 · Late buses and trams stay on the board
+<sub>26 November 2026</sub>
+
+- Departure boards: a bus or tram with no live time used to vanish a minute or two after its timetabled time, even when it was just running late and hadn't reached your stop yet. It now stays for up to 10 minutes, marked "Due".
+- Notifications on the website now show the new app icon (they still had the old one).
+- iPhone app: the launch screen shows the TransitAlert icon instead of a blank placeholder.
+
+### v1.103.228 · The iPhone app takes shape
+<sub>26 November 2026</sub>
+
+- Coming to iPhone: a trip you follow becomes a Live Activity on the lock screen and in the Dynamic Island, with the next stop counting down, stops left and your arrival time, kept up to date by TransitAlert even while your phone is locked. A heads-up arrives when your stop is next.
+- Also coming: home and lock screen widgets for your saved stops, a Line status widget, and an Apple Watch app with watch face complications.
+- Behind the scenes: the trip display now carries the next stop's time, your arrival time and stops left, ready for those countdowns.
+
+### v1.103.227 · Getting ready for iPhone notifications
+<sub>26 November 2026</sub>
+
+- Behind the scenes: the server can now send notifications straight to the iPhone app through Apple's push service, including time-sensitive alerts that get through Focus. It switches on once the App Store account is set up.
+
+### v1.103.226 · Proper iPhone home screen icon and link previews
+<sub>26 November 2026</sub>
+
+- iPhone: "Add to Home Screen" now uses the full-bleed icon, so it no longer gets black corners.
+- Sharing a TransitAlert link in iMessage, WhatsApp, Discord and the rest now shows a big preview card with the new icon, not a small square.
+- Fleet: the search box is labelled for screen readers.
+- Search engines now know about Sightings, Fleet PIDS and the ticket inspector guide.
+- Behind the scenes: the iPhone app project is ready for its first TestFlight build (push notifications, app links and an automatic build setup).
 
 ### v1.103.225 · Housekeeping
 <sub>26 November 2026</sub>
