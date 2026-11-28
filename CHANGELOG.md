@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 384 entries, up to version 1.103.324. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 386 entries, up to version 1.103.326. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 180 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 182 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,17 @@ Every TransitAlert update since the first commit on 13 April 2026: 384 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.326 · Avoid the City Loop or Metro Tunnel, and the station screen for everyone
+<sub>28 November 2026</sub>
+
+- Plan a trip: new Avoid options for the City Loop and the Metro Tunnel. Trips then won't ride through Parliament, Melbourne Central and Flagstaff, or Arden, Parkville, State Library, Town Hall and Anzac, and the live train it picks for each leg won't either. Starting or ending at one of those stations still works. Your choice is saved like your other trip settings.
+- The Platform display (the station screen you can put on a TV) is now in the menu for everyone under More, not only with train fan extras on, and every departure board has a Platform screen button that opens it for that station.
+
+### v1.103.325 · The beta is open to everyone
+<sub>28 November 2026</sub>
+
+- beta.transit-alert.com, where new features land first, no longer needs Premium or a sign-in. Anyone can try what's coming and report what looks wrong. It still says BETA in the corner, and your account and saved stops are the same as on the main site.
 
 ### v1.103.324 · Screen readers hear platform changes, and where every train is going
 <sub>28 November 2026</sub>

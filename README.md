@@ -51,11 +51,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.326** | 28 Nov 2026 | Avoid the City Loop or Metro Tunnel when planning; station screen for everyone |
+| **1.103.325** | 28 Nov 2026 | The beta is open to everyone |
 | **1.103.324** | 28 Nov 2026 | Screen readers hear platform changes; every map train says where it's going |
 | **1.103.323** | 28 Nov 2026 | Lift outages in step-free trips; the map says where trains are going |
 | **1.103.322** | 28 Nov 2026 | Near me shows Flinders Street and Town Hall together (linked underground) |
-| **1.103.321** | 28 Nov 2026 | A late train is never said to form a trip it can't make |
-| **1.103.320** | 28 Nov 2026 | Departure boards read better with VoiceOver and TalkBack |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
