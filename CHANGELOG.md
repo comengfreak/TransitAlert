@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 390 entries, up to version 1.103.330. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 394 entries, up to version 1.103.334. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 186 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 190 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,29 @@ Every TransitAlert update since the first commit on 13 April 2026: 390 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.334 · The green tram stop screen
+<sub>28 November 2026</sub>
+
+- New tram stop screen look, like the green screens at many tram stops: the stop name in a green header, the stop number, each tram in turn with its route number in the route's colour, minutes (or the day and time when it's an hour or more away) and a Service updates panel when something's wrong on the stop's routes. Pick Tram stop (green) on any tram stop screen.
+
+### v1.103.333 · More looks for stop screens
+<sub>28 November 2026</sub>
+
+- Tram stop screens: Amber LED, Modern colour (Yarra Trams green with each route's colour) or High contrast. Bus stop screens: PTV, Interchange (a bright departures board) or High contrast. Tap the screen and pick one: it's remembered on this device and kept in the link if you share it.
+
+### v1.103.332 · Stop screens for tram and bus stops
+<sub>28 November 2026</sub>
+
+- Every tram and bus stop now has its own screen, like the ones at the stop: amber LED for trams, orange route badges for buses, with the next two times per route, a live clock and live or timetable marked. Full screen on a phone, tablet or TV, and it keeps your screen on.
+- Open one from Near me: tap Stop screen on any tram or bus stop.
+
+### v1.103.331 · Platform display fixes: no arriving trains, tidy on a phone
+<sub>28 November 2026</sub>
+
+- V/Line trains finishing at a station no longer show as departures from it. Southern Cross listed the Geelong train arriving from Waurn Ponds as the 9:35 "to Southern Cross", with its whole trip as the stopping pattern. This fixes every board that lists V/Line, not just the platform display.
+- On a phone, the platform display's controls now sit in a bar along the bottom instead of covering the time and station name, and don't catch taps while hidden.
+- V/Line station names show as "Geelong", not "Geelong Railway".
 
 ### v1.103.330 · iPhone app: your train's onboard screen on the lock screen, more widgets, Siri
 <sub>28 November 2026</sub>

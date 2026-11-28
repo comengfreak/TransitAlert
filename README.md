@@ -43,6 +43,8 @@
 
 **🚆 Made for train fans.** Live Fleet tracking for every set (including the new X'Trapolis 2.0), freight on the map, history and stabling, favourites with a push when they come out, platform displays, heritage runs and Station Passport.
 
+**📺 Station and stop screens.** Put a real-looking platform display, tram stop screen or bus stop screen for any stop on your TV or phone.
+
 **🎨 47 themes.** Train and tram liveries (Comeng, Hitachi, W-class, City Circle, Steam, Freight, Blue & Gold), retro eras, interstate cities (Sydney, Brisbane, Perth, Adelaide), 80s neon and time-machine steel, plus free footy club colours and Melbourne moments: Grand Final, Boxing Day Test and Melbourne Cup.
 
 **♿ For everyone.** Step-free routes, lift outages, low-floor tram stops, stop details from riders' own reports, Simple mode, full keyboard and screen reader support, large tap targets, and nine languages: English, 简体中文, 繁體中文, Tiếng Việt, Ελληνικά, Italiano, हिन्दी, Español and Français.
@@ -51,11 +53,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.334** | 28 Nov 2026 | The green tram stop screen |
+| **1.103.333** | 28 Nov 2026 | More looks for stop screens |
+| **1.103.332** | 28 Nov 2026 | Stop screens for every tram and bus stop |
 | **1.103.330** | 28 Nov 2026 | iPhone: your train's onboard screen on the lock screen, more widgets, Siri |
 | **1.103.329** | 28 Nov 2026 | iPhone app readied for the App Store; privacy policy updated |
-| **1.103.328** | 28 Nov 2026 | Metro or V/Line: tells you when V/Line is faster (only trains you can ride) |
-| **1.103.327** | 28 Nov 2026 | Express trains explained, tight-change warnings and tips for your trip |
-| **1.103.326** | 28 Nov 2026 | Avoid the City Loop or Metro Tunnel when planning; station screen for everyone |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
