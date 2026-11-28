@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 394 entries, up to version 1.103.334. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 395 entries, up to version 1.103.335. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 190 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 191 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 394 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.335 · V/Line stations on Departure boards
+<sub>28 November 2026</sub>
+
+- Departure boards now list every V/Line station, not just metro ones. Search Geelong, Ballarat, Bendigo or any regional station to see its live V/Line trains and coaches, save it, plan a trip from it or open its platform screen. A new V/Line filter shows only stations V/Line trains call at.
+- Stations with both metro and V/Line trains, like Footscray, Sunshine and Broadmeadows, show a V/Line departures section under the metro board.
 
 ### v1.103.334 · The green tram stop screen
 <sub>28 November 2026</sub>
