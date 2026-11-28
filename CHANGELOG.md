@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 376 entries, up to version 1.103.316. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 378 entries, up to version 1.103.318. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 172 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 174 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,19 @@ Every TransitAlert update since the first commit on 13 April 2026: 376 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.318 · Says so when you lose signal
+<sub>28 November 2026</sub>
+
+- Lose signal in a tunnel or at a quiet stop and a banner now says "No connection. Times shown are from 4:12 pm and aren't updating", so old times never look live. It clears by itself when you're back online.
+- In the phone apps, opening TransitAlert with no signal shows a "No connection" screen that reopens the app as soon as you're back online, instead of a blank screen.
+- iPhone Live Activities: a trip display that has run out now leaves the lock screen properly instead of lingering.
+
+### v1.103.317 · "Just left" survives updates; plainer alert titles
+<sub>28 November 2026</sub>
+
+- When each train really left is now kept through app updates and restarts, so "Just left" no longer goes back to timetable times for an hour after every release.
+- Disruption alerts read the way you'd say them: "Frankston line: station works" instead of "Frankston Line · Station works · Update", "back to normal" instead of a tick and "Resolved", and no emoji in titles.
 
 ### v1.103.316 · Sixteen new themes: neon, time travel, steam, freight and interstate
 <sub>28 November 2026</sub>
