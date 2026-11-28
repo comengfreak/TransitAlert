@@ -43,7 +43,7 @@
 
 **🚆 Made for train fans.** Live Fleet tracking for every set (including the new X'Trapolis 2.0), freight on the map, history and stabling, favourites with a push when they come out, platform displays, heritage runs and Station Passport.
 
-**🎨 Themes.** Liveries and moods, plus free footy club colours and Melbourne moments: Grand Final, Boxing Day Test and Melbourne Cup.
+**🎨 47 themes.** Train and tram liveries (Comeng, Hitachi, W-class, City Circle, Steam, Freight, Blue & Gold), retro eras, interstate cities (Sydney, Brisbane, Perth, Adelaide), 80s neon and time-machine steel, plus free footy club colours and Melbourne moments: Grand Final, Boxing Day Test and Melbourne Cup.
 
 **♿ For everyone.** Step-free routes, lift outages, low-floor tram stops, stop details from riders' own reports, Simple mode, full keyboard and screen reader support, large tap targets, and nine languages: English, 简体中文, 繁體中文, Tiếng Việt, Ελληνικά, Italiano, हिन्दी, Español and Français.
 
@@ -51,11 +51,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.316** | 28 Nov 2026 | Sixteen new themes: Neon Nights, Time Circuits, Undercity, Steam, Freight, W-class, City Circle, Sydney, Brisbane, Perth, Adelaide and more |
 | **1.103.315** | 28 Nov 2026 | Fixes from riders' accessibility reports: bus stops no longer borrow tram stop details, and rider stop notes |
 | **1.103.314** | 28 Nov 2026 | "Just left" shows when a train really left |
 | **1.103.313** | 28 Nov 2026 | Trains that just left, and whether they went early |
 | **1.103.312** | 28 Nov 2026 | Free footy colours and Melbourne moments themes |
-| **1.103.310** | 28 Nov 2026 | Ride Journal: every journey you take, logged |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
