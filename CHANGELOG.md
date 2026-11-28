@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 387 entries, up to version 1.103.327. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 390 entries, up to version 1.103.330. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 183 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 186 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,28 @@ Every TransitAlert update since the first commit on 13 April 2026: 387 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.330 · iPhone app: your train's onboard screen on the lock screen, more widgets, Siri
+<sub>28 November 2026</sub>
+
+- Live Activity (the trip on your lock screen) now looks like the screen inside the train you're on: amber dot-matrix on a Comeng, white on blue on a Siemens, the dark Metro screen on X'Trapolis and HCMT, V/Line purple on regional trains. It shows the next station big, the stops after it ("Then South Yarra · Hawksburn · Toorak") and the train's own message.
+- New My stops widget: your first two saved stops side by side. The Next services widget has a refresh button.
+- Siri and Shortcuts: "Next departures in TransitAlert" and "Any disruptions in TransitAlert". Also in Spotlight and on the Action button, plus a Control Centre button (iOS 18).
+- These arrive with the iPhone app, coming soon.
+
+### v1.103.329 · Getting the iPhone app ready for the App Store
+<sub>28 November 2026</sub>
+
+- iPhone app (coming soon): ask Siri "Next departures in TransitAlert" and hear the next services from your saved stop, or add it to Shortcuts, Spotlight or the Action button.
+- In the iPhone app, while Premium isn't sold there, the menu and theme picker only show what you can use: no Premium badges or locked themes.
+- Privacy policy updated: what the iPhone app keeps on your phone for widgets, the Apple Watch and the offline screen, Live Activity tokens, App Store and Google Play purchases, and Apple's push service.
+
+### v1.103.328 · Metro or V/Line: the planner tells you when V/Line is faster
+<sub>28 November 2026</sub>
+
+- Plan a trip between stations V/Line also stops at (Southern Cross, Footscray, Sunshine, Caulfield, Dandenong…) and, when a V/Line gets there sooner than Metro, a purple card says so with the time and platform, and one tap plans the trip by V/Line.
+- New choice under When & how: Rail · Either (Metro, with V/Line suggested when it's faster), Metro only, or V/Line.
+- The planner only ever offers a V/Line you're allowed to ride: never one that only sets down where you'd board, or only picks up where you'd get off. Boards still show those trains, and now say why you can't use them ("Pick-up only: you can get on here, but not off again until Pakenham").
 
 ### v1.103.327 · Express trains explained, and tips for your trip
 <sub>28 November 2026</sub>
