@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 382 entries, up to version 1.103.322. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 383 entries, up to version 1.103.323. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 178 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 179 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,13 @@ Every TransitAlert update since the first commit on 13 April 2026: 382 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.323 · Lift outages in step-free trips, and a map that says where trains are going
+<sub>28 November 2026</sub>
+
+- Trip planner: a station with a lift out of service right now counts as not step-free when you sort by step-free, and any trip that boards, changes or gets off where a lift is out says so at the top, naming the station.
+- Live map with a screen reader: each train, tram and bus now says where it's going and how late it is before its fleet numbers ("Train to Mernda, Mernda line, 3 min late, cars 107M…").
+- Typing a station and pressing Enter now picks the top match, instead of needing an arrow key first.
 
 ### v1.103.322 · Near me: Flinders Street and Town Hall together
 <sub>28 November 2026</sub>
