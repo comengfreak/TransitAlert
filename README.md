@@ -53,6 +53,7 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.338** | 29 Nov 2026 | Departure times at every stop interstate |
 | **1.103.337** | 29 Nov 2026 | The full timetable with no signal |
 | **1.103.336** | 28 Nov 2026 | Trip journal: no more spreadsheet import |
 | **1.103.335** | 28 Nov 2026 | V/Line stations on Departure boards |
