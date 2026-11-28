@@ -53,6 +53,7 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.336** | 28 Nov 2026 | Trip journal: no more spreadsheet import |
 | **1.103.335** | 28 Nov 2026 | V/Line stations on Departure boards |
 | **1.103.334** | 28 Nov 2026 | The green tram stop screen |
 | **1.103.333** | 28 Nov 2026 | More looks for stop screens |

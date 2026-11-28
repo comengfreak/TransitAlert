@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 395 entries, up to version 1.103.335. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 396 entries, up to version 1.103.336. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 191 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 192 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,11 @@ Every TransitAlert update since the first commit on 13 April 2026: 395 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.336 · Trip journal: no more spreadsheet import
+<sub>28 November 2026</sub>
+
+- Trip journal no longer imports journeys from a spreadsheet. Log trips by hand or from a trip you take. Journeys already in your journal stay, and Export still works.
 
 ### v1.103.335 · V/Line stations on Departure boards
 <sub>28 November 2026</sub>
