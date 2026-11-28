@@ -51,11 +51,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.327** | 28 Nov 2026 | Express trains explained, tight-change warnings and tips for your trip |
 | **1.103.326** | 28 Nov 2026 | Avoid the City Loop or Metro Tunnel when planning; station screen for everyone |
 | **1.103.325** | 28 Nov 2026 | The beta is open to everyone |
 | **1.103.324** | 28 Nov 2026 | Screen readers hear platform changes; every map train says where it's going |
 | **1.103.323** | 28 Nov 2026 | Lift outages in step-free trips; the map says where trains are going |
-| **1.103.322** | 28 Nov 2026 | Near me shows Flinders Street and Town Hall together (linked underground) |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**

@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 386 entries, up to version 1.103.326. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 387 entries, up to version 1.103.327. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 182 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 183 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,14 @@ Every TransitAlert update since the first commit on 13 April 2026: 386 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.327 · Express trains explained, and tips for your trip
+<sub>28 November 2026</sub>
+
+- When the planner picks a later train because it gets you there sooner, it now says so: "Worth the wait: this express train gets you to Flinders Street 6 min sooner than the 6:59, which stops all stations." Express trains get a yellow EXPRESS tag.
+- New choice under When & how: Trains · Get there first (waits for the express) or Leave first (just takes the next train).
+- Changes of three minutes or less are flagged as tight, with the next train if you miss it.
+- Tips for this trip: plain advice from what's affecting it, like replacement buses (allow 20 extra minutes, follow staff), delays on your line, a lift that's out, last trains late on a weeknight, and Night Network on Friday and Saturday nights.
 
 ### v1.103.326 · Avoid the City Loop or Metro Tunnel, and the station screen for everyone
 <sub>28 November 2026</sub>
