@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 380 entries, up to version 1.103.320. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 382 entries, up to version 1.103.322. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 176 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 178 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,19 @@ Every TransitAlert update since the first commit on 13 April 2026: 380 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.322 · Near me: Flinders Street and Town Hall together
+<sub>28 November 2026</sub>
+
+- Flinders Street and Town Hall are joined underground, but at Flinders Street, Near me never showed Town Hall: 79 stops are within 800 m there, and the tram stops filled the list.
+- Now stations linked underground always show together, one after the other, marked "Linked underground": Flinders Street with Town Hall, and Melbourne Central with State Library.
+
+### v1.103.321 · No more "Forms" for a train that's running too late to
+<sub>28 November 2026</sub>
+
+- Reported at Flinders Street: a Lilydale train came in 4 minutes late and left as the 5:42 to Lilydale, but the app said it formed the 5:39 to Glen Waverley, which had already gone. The app took the timetable's plan as confirmed once that trip appeared in Metro's live feed.
+- Now a train is only said to form its next trip when it can: if it gets in after that trip is due out, or Metro's live vehicle feed has a different train on it, the app says it's running late and will probably be put on another service, and to check the platform screen.
+- A late train whose next trip is held back for it still shows as forming it.
 
 ### v1.103.320 · Departure boards read better with a screen reader
 <sub>28 November 2026</sub>

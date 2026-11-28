@@ -51,11 +51,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.322** | 28 Nov 2026 | Near me shows Flinders Street and Town Hall together (linked underground) |
+| **1.103.321** | 28 Nov 2026 | A late train is never said to form a trip it can't make |
 | **1.103.320** | 28 Nov 2026 | Departure boards read better with VoiceOver and TalkBack |
 | **1.103.319** | 28 Nov 2026 | Your saved stops' next services, even when the app opens with no signal |
 | **1.103.318** | 28 Nov 2026 | Says so when you lose signal, instead of showing old times as live |
-| **1.103.317** | 28 Nov 2026 | "Just left" times kept through updates; plainer alert titles |
-| **1.103.316** | 28 Nov 2026 | Sixteen new themes: Neon Nights, Time Circuits, Undercity, Steam, Freight, W-class, City Circle, Sydney, Brisbane, Perth, Adelaide and more |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
