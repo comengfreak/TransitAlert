@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 396 entries, up to version 1.103.336. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 397 entries, up to version 1.103.337. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 192 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 193 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 396 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.337 · The full timetable with no signal
+<sub>29 November 2026</sub>
+
+- The iPhone and Android apps now keep the whole timetable on your phone: every metro train, V/Line train, tram and metro bus for the next two weeks. With no signal, the No connection screen lets you search any station or stop, find stops near you, or tap one of your saved stops to see its timetabled times, with the platform for trains.
+- It's about 2 MB, updated in the background when there's a newer timetable (not when your phone is saving data). It needs the latest version of the app.
 
 ### v1.103.336 · Trip journal: no more spreadsheet import
 <sub>28 November 2026</sub>
