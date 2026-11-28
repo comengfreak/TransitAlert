@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 379 entries, up to version 1.103.319. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 380 entries, up to version 1.103.320. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 175 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 176 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,13 @@ Every TransitAlert update since the first commit on 13 April 2026: 379 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.320 · Departure boards read better with a screen reader
+<sub>28 November 2026</sub>
+
+- A station's board now says its name in the page title ("Flinders Street · Departure boards"), so VoiceOver, TalkBack and the app switcher tell you where you are.
+- The station heading reads just "Flinders Street", not "Flinders Street Save stop": the Save and check-in buttons sit beside it.
+- Each platform's table is named after its platform, so moving between tables says "Platform 1" instead of only "table, 4 columns".
 
 ### v1.103.319 · Your saved stops, even with no signal
 <sub>28 November 2026</sub>
