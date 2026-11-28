@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 378 entries, up to version 1.103.318. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 379 entries, up to version 1.103.319. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 174 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 175 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,13 @@ Every TransitAlert update since the first commit on 13 April 2026: 378 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.319 · Your saved stops, even with no signal
+<sub>28 November 2026</sub>
+
+- In the iPhone and Android apps, opening TransitAlert with no signal now shows the next services from your saved stops, from the last time you had signal (marked with that time), instead of only "No connection". Cancelled services are struck through and timetable-only times are labelled.
+- The app keeps that copy up to date every 5 minutes while it's open. Times more than 3 hours old aren't shown.
+- Needs the next app update from the App Store or Google Play.
 
 ### v1.103.318 · Says so when you lose signal
 <sub>28 November 2026</sub>

@@ -51,11 +51,11 @@
 
 | Version | Date | What changed |
 | --- | --- | --- |
+| **1.103.319** | 28 Nov 2026 | Your saved stops' next services, even when the app opens with no signal |
 | **1.103.318** | 28 Nov 2026 | Says so when you lose signal, instead of showing old times as live |
 | **1.103.317** | 28 Nov 2026 | "Just left" times kept through updates; plainer alert titles |
 | **1.103.316** | 28 Nov 2026 | Sixteen new themes: Neon Nights, Time Circuits, Undercity, Steam, Freight, W-class, City Circle, Sydney, Brisbane, Perth, Adelaide and more |
 | **1.103.315** | 28 Nov 2026 | Fixes from riders' accessibility reports: bus stops no longer borrow tram stop details, and rider stop notes |
-| **1.103.314** | 28 Nov 2026 | "Just left" shows when a train really left |
 
 📜 **[Full changelog: every version since day one, week by week →](CHANGELOG.md)**<br>
 Or read it all on one page: **[comengfreak.github.io/changelog](https://comengfreak.github.io/changelog.html)**
