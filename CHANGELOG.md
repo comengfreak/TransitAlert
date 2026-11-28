@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 291 entries, up to version 1.103.230. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 375 entries, up to version 1.103.315. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 87 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 171 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,522 @@ Every TransitAlert update since the first commit on 13 April 2026: 291 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.315 · Fixes from your accessibility reports
+<sub>28 November 2026</sub>
+
+- A bus stop no longer shows the shelter, seat or tactile paving of a tram stop with the same name at the same corner (reported at Hawthorn Rd/North Rd, where Route 64 tram stops sit beside the 626 and 630 bus stops). Stop details now only come from the same kind of stop.
+- Riders can now add what no dataset records. The first rider note is on a bus stop with no shelter: shade from a tree, a wall to lean on, and buses that usually pull up with the front door at the kerb. Notes are checked first and always shown as a rider's note, never as an official assessment.
+- Bus stops without an official step-free assessment stay "not assessed": the app doesn't guess, as riders asked.
+
+### v1.103.314 · "Just left" shows when a train really left
+<sub>28 November 2026</sub>
+
+- PTV stops sending a train's live time once it has left, so "Just left" could only show the timetable. TransitAlert now keeps the last live time Metro gave for each train at each station before it went, so you can see when it really left and whether it went early. Trains that left before the server last restarted still show their timetabled time.
+
+### v1.103.313 · "Did it already go?" Trains that just left, and whether they went early
+<sub>28 November 2026</sub>
+
+- Departure boards now have a "Just left · last hour" list: each train with the time it really left and whether it went early, on time or late ("Left 1:29 pm · 2 min early"). A rider at South Yarra waited for an X'Trapolis 2.0 to Carrum that had already been through, and the app couldn't tell them.
+- The map's recent services show the same thing instead of just "Departed".
+
+### v1.103.312 · Footy colours and Melbourne moments themes, free
+<sub>28 November 2026</sub>
+
+- Ten new free themes in the colours of Victoria's AFL clubs: Black & White, Navy Blues, Red & Black sash, Brown & Gold, Red & Blue, Royal Blue & White, Yellow & Black sash, Red White & Black, Red White & Blue and Navy & White hoops. Each has its stripes, sash or hoops across the top of the screen. They're unofficial, colours only, with no logos.
+- Three Melbourne moments: Grand Final (navy + premiership gold), Boxing Day Test (cricket whites on the green, with a red ball) and Melbourne Cup (racing green, gold + the roses).
+- Every new theme was checked for readable contrast before it shipped. Pick one in Settings → Theme.
+
+### v1.103.311 · Ride Journal: times right in daylight saving
+<sub>28 November 2026</sub>
+
+- Imported and hand-logged journeys keep the time you gave them all year round. An import of "6:15 pm" in November showed 7:15 pm, because daylight saving wasn't allowed for.
+
+### v1.103.310 · Ride Journal: every journey you take, logged
+<sub>28 November 2026</sub>
+
+- New Ride Journal (menu → Ride Journal). Each journey is logged as from → to with the date, the line, the distance along the track, the stations you passed through, the train's number and your notes. No account needed: it stays on your phone, and if you sign in it follows your account to every device.
+- Zero taps: when you finish a trip you started in TransitAlert, each train, tram and bus you rode goes into the journal by itself, with the real train number from the live feed. Ending a trip early logs only the rides you marked done.
+- Log one by hand in seconds: start typing a station for every Melbourne Metro and V/Line station, plus train stations in NSW, Queensland, SA, WA and the ACT.
+- Bring your spreadsheet: import a CSV with a date, where you got on and where you got off ("Date / From / To" or "Got on / Got off" both work), plus the time, train number and notes if you have them. Stations it can't match are kept and listed. Export the whole journal as a CSV any time.
+- Stats (journeys, km by rail, stations collected, passed through, networks, lines and train numbers) and All Stations progress for every Metro line.
+
+### v1.103.309 · "Best" and "Fastest" are separate sorts
+<sub>28 November 2026</sub>
+
+- Trip options open on "Best", the planner's balance of time, walking and changes. "Fastest" now sorts strictly by time, and an option whose first wait isn't known yet goes after the timed ones.
+
+### v1.103.308 · Sort your trip options, and departure boards read clearly to screen readers
+<sub>28 November 2026</sub>
+
+- Trip options can now be sorted: Fastest, Fewest changes, Least walking, Shortest wait, Step-free, More train, More tram or More bus. Each only ranks on what's known. Waits use real departure times. Step-free uses each station's official step-free route, and a station without that data stays unknown, never step-free. Your choice stays in the trip link.
+- Screen readers now read each departure as one clear sentence: "Belgrave line to Belgrave, platform 2, departs 1:42 pm, 3 minutes late, opens train details", and for trams and buses "Route 16 to Kew, departs 1:44 pm, on time, follow it on the map". Trains approaching a station start with where they're going and when, with the train type last.
+
+### v1.103.307 · Accessibility: more tap targets fixed
+<sub>28 November 2026</sub>
+
+- More controls are now at least 24px tall: the map's refresh button, All/None in notification settings, Report links, Show all on Disruptions, Open full app on Glance, and links on station pages.
+- Skip to main content now works on the Glance page too, and the map's heading sits inside its landmark.
+
+### v1.103.306 · Accessibility: skip link, focus ring, contrast and bigger targets
+<sub>28 November 2026</sub>
+
+- "Skip to main content" is now the first thing keyboard and screen-reader users reach, and every button, link and tab shows a clear yellow ring when it has keyboard focus.
+- The map page has a main heading and a "Live map" landmark for screen readers, and the planner's map is a "Route map" landmark, so you can jump straight to them.
+- Links that were hard to read now pass contrast: "Full BOM warning" on the weather card, and "See disruptions" on Delays, which was dark blue on a dark page.
+- Bigger tap targets: tram and bus markers on the map have extra tap room, checkboxes and radio buttons are 24px, and notice links in the planner are taller.
+
+### v1.103.305 · Tram changes can include a short walk
+<sub>28 November 2026</sub>
+
+- Changing between trams or buses now allows a walk of up to 500 m between stops, two city blocks (it was 250 m). Tram 86 and tram 70 only share a stop at Docklands, so La Trobe Uni to the MCG went all the way out there and back, over 2 hours. It can now change in the city, Bourke St to Flinders St.
+
+### v1.103.303 · Bus and tram legs use routes running now
+<sub>28 November 2026</sub>
+
+- When a trip starts or ends with a bus or tram, routes whose next service is more than 3 hours away are left out, so the planner picks one that's running. From Monash Clayton on a weekend it no longer builds the trip around the weekday-only 601.
+
+### v1.103.302 · Trip plans don't lead with a service that isn't running today
+<sub>28 November 2026</sub>
+
+- Planning from Monash Clayton on a Saturday listed a trip "43 h 39 min" away first, as the fastest: it started with the 601 shuttle, which only runs on weekdays, so its first bus was Monday morning. A route whose first service is more than 2 hours after you want to leave now goes after the routes that run now.
+
+### v1.103.301 · "Terminates early" only when it's known
+<sub>28 November 2026</sub>
+
+- Station boards say a train terminates early ("timetabled to Frankston") only when the app found that exact trip in the timetable. When it could only match a similar trip by its run number, that trip's end proves nothing, so the board no longer says it.
+
+### v1.103.300 · Trips work when every train ends short
+<sub>28 November 2026</sub>
+
+- On weekends the Alamein line is a shuttle to Camberwell, so a trip like Alamein to Hurstbridge had no direct train to Parliament and the planner gave up with "We couldn't confirm every service". When every train on a stretch ends partway, the plan now tells you to change where they end (Camberwell) and finds the train onward.
+
+### v1.103.299 · Tram and bus boards no longer lead with trams that have left
+<sub>28 November 2026</sub>
+
+- Busy tram and bus stops could list trams that had already left at the top of the board. At Flinders Street/Swanston St that was the first ten, 4 to 9 minutes gone. They now move to recent departures as soon as PTV drops them from its live list. A late tram or bus that PTV still lists keeps its place.
+- An open train panel now checks every minute whether the train's next trip has been confirmed or cancelled (it was every 10 minutes), and the wording is shorter: "Timetabled to form the 10:12 to Frankston (not confirmed yet)" and "Next trip not known yet."
+
+### v1.103.298 · No more guessing a train goes out of service
+<sub>28 November 2026</sub>
+
+- A train panel no longer says "then out of service" unless it's known. Metro's timetable only links a train's trips two at a time, so after most trips it doesn't say what the train does next. One Saturday morning, 41 of 75 trains were wrongly shown as going out of service. Now it says where it goes next isn't known yet.
+- A train's next trip ("Forms the 9:04 to Frankston", "Then becomes an Alamein train") is shown as fact only once Metro's live feed has it running, about an hour before it leaves. Before that it's shown as the timetable plan, "not confirmed yet". If the live feed has it cancelled, it isn't shown.
+- Buses and trams away from their route no longer say "probably out of service": they may be on a detour or between trips.
+
+### v1.103.297 · Bug hunt: a calmer Live dot, fewer pointless changes, cleaner notices
+<sub>28 November 2026</sub>
+
+- The Live dot on the map is green again when everything's fine. The live feed's routine housekeeping notes kept it amber nearly all the time; now only a real problem changes it.
+- Trip plans no longer tell you to get off and onto another train of the same line going the same way (Eaglemont to Essendon: "change to a Hurstbridge train at Ivanhoe"). When one train runs the whole way and is at most 5 minutes slower, you stay on it.
+- Typos in PTV's disruption notices ("Roite 699", "not service stops") are corrected in the app, notifications and widgets.
+
+### v1.103.296 · Refunded Premium is removed
+<sub>28 November 2026</sub>
+
+- If a Premium purchase is refunded, through the App Store or Google Play, Premium is removed from that account. A refunded purchase can't be restored again later. Premium stays if the account has another purchase or was given Premium by TransitAlert. If Apple reverses a refund, Premium comes back.
+
+### v1.103.295 · Premium in the iPhone app, ready for the App Store
+<sub>28 November 2026</sub>
+
+- The iPhone app can sell Premium through Apple's in-app purchase once it's on the App Store: one payment, with Restore purchase on the Account page for a new phone. The server checks Apple's signature on every purchase before unlocking Premium, and one purchase unlocks one TransitAlert account, as on Google Play.
+- Until Premium is on sale in the App Store, the iPhone app doesn't mention it.
+
+### v1.103.294 · Bug hunt fixes
+<sub>28 November 2026</sub>
+
+- Resetting your settings now sticks when you're signed in. Before, account sync could bring the old settings straight back.
+- A damaged saved item on one device can no longer stop syncing, or overwrite the good copy kept with your account.
+- Bus screens no longer ask PTV about a trip using a timetable ID it can't read. That wasted request failed every time and slowed the screen down.
+
+### v1.103.293 · Your saved stops, trips and settings follow your account
+<sub>28 November 2026</sub>
+
+- Signed in, your saved stops and stations, saved trips, settings and alert choices are now kept with your account. Delete the app, get a new phone, or sign in on a tablet, TV or computer, and they come back. Change them on one device and the others catch up within a few minutes. If two devices both changed something, nothing is lost: saved stops and trips from both are kept. Signed out, everything stays on the device as before.
+- Alert choices that come from another device are applied to this device's notifications straight away, if notifications are on here.
+- TransitAlert now counts devices: once a day each device sends a random ID and what kind of device it is (no name, email or location), so we know how many people use the iPhone app, Android app and website. The privacy policy explains it.
+
+### v1.103.292 · Clearer cross-line bus notes, and iPhone app fixes
+<sub>28 November 2026</sub>
+
+- The note under a bus that runs between two different lines no longer says it "links the two lines", which sounded like the lines join up. It now says the lines don't meet and the bus goes across by road, so you can carry on by train from the other line.
+- iPhone app (TestFlight soon): widgets and the lock-screen trip view now load properly. They were left out at startup.
+
+### v1.103.291 · Replacement buses between two different lines make sense now
+<sub>28 November 2026</sub>
+
+- PTV's "Buses replace trains between Caulfield and Elsternwick" on the Sandringham line read like a mistake, because Caulfield isn't on that line. When a replacement bus links two stations on different lines, the card now says so under the headline: "Caulfield is on the Frankston and Pakenham lines, Elsternwick on the Sandringham line. The lines don't meet: this bus goes across by road so you can carry on by train from the other line." PTV's own text is unchanged.
+
+### v1.103.290 · Block a traveller, and getting ready for the iPhone
+<sub>28 November 2026</sub>
+
+- You can now block another traveller from their profile, next to Report. You won't see each other on leaderboards, feeds, station collectors or sightings, follows between you are removed, and they can't follow you. Unblock from the same profile.
+- iPhone app (coming to the App Store): iPhone only, ready for Apple's push notifications, and Premium-only screens say they aren't in the iPhone app yet.
+
+### v1.103.289 · Walk it when the next tram or bus is ages away, and freight is free
+<sub>27 November 2026</sub>
+
+- On a started trip, if you miss a tram or bus and the next one is a long wait, the trip card tells you when walking to the stop you're riding to gets you there sooner: "Quicker to walk: Ormond in 13 min (1.0 km), there by 8:05, 9 min sooner." It uses your walking pace setting, and after 9 pm it only suggests walking when it saves 10 minutes or more.
+- Freight is free: planned freight times are no longer part of Premium. Sign in with a free account to see them. They now show on the station page as well as the map.
+- Freight times now show at Ararat and Violet Town, which ARTC's plan calls "Ararat Siding" and "Violet Town Siding".
+
+### v1.103.288 · Live location while the app is open, and ready for the App Store
+<sub>27 November 2026</sub>
+
+- Once you've allowed location, TransitAlert keeps it up to date while the app is open, so nearby stops and your trip stay current without tapping the location button. It never asks on its own, uses normal accuracy to save battery, and stops when the app is in the background. Turn it off in Settings (Live location).
+- iPhone app: the location permission message now says exactly what location is used for, and the app carries Apple's privacy manifest.
+
+### v1.103.287 · Fixes from the jury
+<sub>27 November 2026</sub>
+
+- "At the stop now" needs a position under 90 seconds old, and a tram must be within 40 m (buses 120 m), so a tram a block away or a bus that left 4 minutes ago no longer says it's there.
+- On a started trip, being near a train's station only counts once you're off the bus before it, so a train that leaves before your bus arrives isn't offered. Only the walk you're on uses your location; later walks keep their planned length, and Leave by uses the same numbers.
+- Near me and the city walk links use your walking pace. The walk-link note no longer promises a step-free way nobody has checked. Coach and SkyBus bays can't get mixed up at a stop they share.
+
+### v1.103.286 · Buses at your stop say so, and the city's underground walks on the map
+<sub>27 November 2026</sub>
+
+- A bus or tram that's at your stop by its live position says "At Berwick Station now", or at the start of its trip "Waiting at Berwick Station · leaves 8:45 pm", instead of "Next stop is yours · 70 m away". Trip reminders say when it leaves ("leaves Berwick Station in about 4 min") rather than calling a bus in its bay "4 min away".
+- Map: the underground walks between Town Hall and Flinders Street, and State Library and Melbourne Central, show as a dotted line with the walking time. Tap it for the way through. The trip planner already uses both, either direction.
+- A train's card says "via City Loop" when it's still to go round the Loop, worked out from the stops ahead, and never once it has.
+- Near me: a V/Line that's pick-up only says so ("pick-up only, first drop-off Pakenham").
+
+### v1.103.285 · Tap a bus bay's letter to open it
+<sub>27 November 2026</sub>
+
+- Map: at a bus interchange, tapping a bay's letter ("H") opens that bay's departures. Only the small dot under it used to respond, which was hard to hit; the dots are bigger now too.
+
+### v1.103.284 · A calmer trip card, and a walking pace that fits you
+<sub>27 November 2026</sub>
+
+- New setting, in Settings and the trip planner: Walking pace. "Unhurried" allows more time to walk or wheel, and at least 4 minutes to change, so Leave by and Tight warnings fit anyone slower. Suggested by riders who use wheelchairs.
+- On a started trip, the walk you're on shows how much is left from your phone's location ("240 m to go · about 3 min"), and the trains after it are timed from there.
+- Finished legs fold into one line ("✓ Done: walk, Bus 630"), and only one note shows at a time, for the ride that's next.
+
+### v1.103.283 · Your trip catches the train that's actually there
+<sub>27 November 2026</sub>
+
+- On a started trip, once you're off the bus (or your phone's location puts you at the stop), the next leg lists trains from now. On the Ormond platform at 7:26 with a City Loop train 3 min away, it was still waiting for the bus's planned 7:48 arrival and offered one 34 min away.
+- The top of your trip says what's next: "Next train in 9 min at Caulfield · Platform 4", instead of "Scheduled · 6 legs".
+- A leg you're already at says "You're at Caulfield: catch any of these". Trains going round the Loop say "City Loop" like the platform screens, and each one shows one countdown instead of a countdown and a separate wait.
+
+### v1.103.282 · Station cards you can read on a phone
+<sub>27 November 2026</sub>
+
+- Near me at a station: each train's destination is back in full, with the platform and the time it leaves on a line underneath ("Platform 3 · leaves 7:24 pm"). In 1.103.281 the platform pushed the destination off the screen.
+- Trains are split under "To the city" and "Away from the city".
+
+### v1.103.281 · Near me at big stations: every line, its platform and the time
+<sub>27 November 2026</sub>
+
+- Near me at a station like Richmond: trains to the city first, then outbound, each in platform order with its platform shown, and the clock time beside the countdown so you can line up a connection. Every line gets a row, including the quiet ones.
+- A train's badge is its own line. Sandringham trains running through from Werribee or Williamstown said "Werribee" at Richmond, and the card took the colour of whichever train was first, so Richmond looked like a Frankston line station.
+- A train that has just come round the City Loop says "from the City Loop", not "via the City Loop" as if it was going there. A run that ends at Southern Cross says Southern Cross, not "City service".
+- Richmond's board loaded in up to 20 seconds after a restart; it's now about 3.
+- Stations show the car spaces, bike racks, Parkiteer cages, toilets and taxi rank PTV lists.
+- Map: a tapped V/Line train's carriages sit at their real length along the track, instead of being spread over a couple of kilometres at city zoom. The V/Line track also no longer doubles back on itself in 13 places (Avenel–Euroa, Springhurst–Wangaratta, Bacchus Marsh–Melton, Lara–Wyndham Vale and on to Geelong), where trains jumped back and forth.
+
+### v1.103.280 · Avalon Airport in the right spot
+<sub>27 November 2026</sub>
+
+- Searching for Avalon Airport now starts you at the SkyBus stop outside the terminal. The pin was 1.5 km away out on the airfield, so trip plans began with a long walk.
+- Stations whose entrances and walkways aren't in PTV's data (Boronia, Union, and V/Line stations) now say so, instead of the route finder just not appearing.
+- A rail replacement stop reads "Replacement bus", not "Plat Replacement bus".
+
+### v1.103.279 · Coach and SkyBus bays
+<sub>27 November 2026</sub>
+
+- V/Line coaches show their bay where the timetable gives one (Geelong Station Bay 2, Bendigo Bay 1, Lilydale Bay I, Dandenong Bay 10/11) instead of just "Coach stop". Southern Cross coaches still say Coach Terminal: those bays are only on the terminal's screens.
+- SkyBus shows its bay: at the Southern Cross terminal, Bay 75 for Melbourne Airport and Bay 74 for Avalon, and Box Hill Bay 4, Sunshine Bay 6 and the airport's T4 bay.
+- Saved stops, the departure details and the PIDs no longer print "Plat Coach stop".
+
+### v1.103.278 · Tram door sides at most stops, worked out for each direction
+<sub>27 November 2026</sub>
+
+- Trams: the door side now shows at most stops instead of about a quarter of them. PTV's live data gives a stop one position even when each direction has its own boarding point across the road, so the app had been comparing it against some other stop with the same number, and could say left one way and right the other at the same stop. It's now worked out nightly from the timetable, which keeps both boarding points.
+- Stops where the tram turns a corner, and the few that work out as right-hand doors, show no side until they've been checked at the stop.
+
+### v1.103.277 · Door sides at Flinders Street go by which way the train is moving
+<sub>27 November 2026</sub>
+
+- Flinders Street door sides now depend on which way the train moves through the station, not which line it's on. A Craigieburn train comes into the same platform from Southern Cross or round the Loop from Parliament, and the doors open on opposite sides; the old rules gave the wrong side for one of the two. Frankston and Sandringham trains leaving platforms 6 and 8 also get a door side now.
+- North Melbourne works by direction on every platform, so Craigieburn trains on platform 4 get one. Alamein trains into Camberwell 1 too.
+- V/Line trains at stations they share with Metro (Dandenong, Pakenham, Sunbury, Watergardens, Broadmeadows, Craigieburn, Flinders Street and more) use the same platform rules. Regional stations still show no door side until it's confirmed.
+
+### v1.103.276 · Door sides both ways at North Melbourne and 450 more platforms, and ARTC's new freight plan
+<sub>27 November 2026</sub>
+
+- Door sides now work in both directions on a platform. North Melbourne only knew one way on most platforms (1 city-bound, 4 and 6 outbound, and 2 said left whichever way you were going). A platform is on one side of its track, so the other direction opens on the other side; that's now filled in at 450 platforms, which helps when a train is moved to another platform, runs the other way round the Loop, or uses one track during works.
+- Freight due now uses ARTC's train plan of 15 November 2026, replacing the July one.
+
+### v1.103.275 · Freight times say how old ARTC's plan is
+<sub>27 November 2026</sub>
+
+- Freight due shows the date of ARTC's train plan in plain words, and warns once the plan is over four months old, because ARTC has usually issued a newer one by then and some times may have changed.
+- Passport badges lose their emoji labels: the tabs just say Stamps, Network, History and Regional.
+
+### v1.103.274 · Lift alerts for your saved stations, and freight tracked by riders
+<sub>27 November 2026</sub>
+
+- New notification, on by default: "Lifts at my saved stations". If PTV lists a lift out of service at a train station you've saved, you get told, even if you don't follow that line. Asked for by riders who use wheelchairs.
+- Freight due: when a rider posts a sighting of a planned freight train (like 6MP4 at Sunshine) in the last 6 hours, the card shows where it was seen, how late it's running, and when to expect it at this station. "Seen it? Post a sighting" now opens the Sightings form already filled in.
+- Plainer wording on the Passport, Fleet PIDS and Heritage pages.
+
+### v1.103.273 · Train signs say what the real ones say
+<sub>27 November 2026</sub>
+
+- The destination sign now reads like the train's: "UPFIELD" going to Upfield, "CITY LOOP" for a city train going round the Loop, "FLINDERS ST" for one going straight there. The X'Trapolis cab is just the cab and its sign, with no logos.
+
+### v1.103.272 · X'Trapolis destination sign on the cab front
+<sub>27 November 2026</sub>
+
+- With train-fan details on, an X'Trapolis now shows its destination the way you see it pull in: amber sign in the top window of the cab. Rider idea from Lachlan.
+
+### v1.103.271 · Lift status says when it's out of date
+<sub>27 November 2026</sub>
+
+- If TransitAlert hasn't been able to check PTV's lift notices for over 20 minutes (no signal, or PTV down), a station no longer says "No lift outages". It warns that the lift status couldn't be updated and to check before relying on it.
+
+### v1.103.270 · Report a bus ramp you couldn't get over
+<sub>27 November 2026</sub>
+
+- "What's happening?" on a bus or tram has a new access report: "Ramp problem (couldn't board)". It warns the next wheelchair or pram user on that vehicle, alongside blocked wheelchair spaces and doors out of order. Suggested by a rider in a wheelchair.
+
+### v1.103.269 · Bus depots checked against the operators' own lists
+<sub>27 November 2026</sub>
+
+- CDC depots now match CDC Victoria's list: Airport West (the former Tullamarine depot), Westmeadows, Truganina, Albion and Oakleigh South, plus Ballarat and Geelong.
+- Dysons' depots (Reservoir, Bundoora, Bairnsdale) now read as Kinetic, which took them over on 2 October.
+- Ventura's Seaford depot and McHarry's Breakwater depot added.
+
+### v1.103.268 · Night works show their replacement stops on time
+<sub>27 November 2026</sub>
+
+- Replacement bus stops for night works now appear on the map right at the start time (7:45 pm, say). They only appeared once the disruption notice itself changed, which could be much later.
+- Night works notices worded "until the last service every night" are read correctly too.
+
+### v1.103.267 · Find any bus by its number or plate, running or not
+<sub>27 November 2026</sub>
+
+- Searching a bus fleet number now finds it even when it isn't running, and opens its history. It used to say nothing unless the bus was on the map right now.
+- Numbers with a letter in front work ("T113"), and so do number plates ("6655AO"). "T113" used to show a train.
+
+### v1.103.266 · Clearer train stop lists
+<sub>27 November 2026</sub>
+
+- A train's stop list now says "Previous stop" for the stop it last called at. "Last stop" read as if the train ended there.
+- Camberwell platform 2: doors on the left for every city-bound train, not just Alamein trains.
+
+### v1.103.265 · Replacement bus stops on the map during works
+<sub>27 November 2026</sub>
+
+- While buses replace trains, the map marks the official replacement bus stop (orange) at each station on that line. Tap one for the station's details.
+- Night works ("from 7.45pm each night") only show the stops from that time until the last service, not all day.
+- Notices don't say which stations are affected, so the whole line is marked: check the notice for your station.
+
+### v1.103.264 · Bus depots, longer bus history, and train destination signs
+<sub>27 November 2026</sub>
+
+- Bus depots for Kinetic, CDC, Ventura, Transit Systems, Dysons, McHarry's and others (West Footscray, Sunshine West, North Fitzroy, Doncaster, Albion, Wyndham, Oakleigh, Dandenong, Lilydale and more). A bus stopped at one now reads "at Transit Systems West Footscray depot" in its history.
+- Bus positions are kept for 14 days instead of 3. Each bus's trips were already kept for good.
+- Maidstone tram depot added.
+- Train fans: a train's details show its destination the way its own sign does ("UPFIELD" in amber on an X'Trapolis, white on an HCMT). Idea from a rider.
+
+### v1.103.263 · Replacement coaches only show where they really stop
+<sub>27 November 2026</sub>
+
+- Evening Traralgon and Bairnsdale coaches (Sunday 29 November to Wednesday 2 December) no longer show at Clayton, Flinders Street, Richmond or Berwick. The official notice says they don't stop there, but the timetable data still listed them. Boards and the trip planner both follow the notice. Thanks to the rider on r/MelbourneTrains who spotted it.
+- Coach-only stops (like Caulfield Station/Sir John Monash Dr) show their replacement coaches again. The board gave trains all the room and none was left for coaches, so the board was empty.
+- Flinders Street is spelt right everywhere. PTV's data calls one coach stop "Flinder St"; it now reads "Flinders St".
+
+### v1.103.262 · South Yarra 5 and 6, Brighton Beach 1
+<sub>27 November 2026</sub>
+
+- South Yarra 5: left to the city, right outbound. South Yarra 6: left outbound, right to the city. Worked out from the station's layout (side platforms 1 and 6, islands 2/3 and 4/5), which fits every platform already known there.
+- Brighton Beach 1 (the island's other face from platform 2, not in regular use): right to the city, left toward Sandringham.
+
+### v1.103.261 · Door sides for works and turnback platforms
+<sub>27 November 2026</sub>
+
+- Added both directions for the platforms trains use during works and turnbacks: platform 2 at Glen Huntly, Ormond, McKinnon, Bentleigh, Patterson and Moorabbin, Belgrave 1, Essendon 1, Werribee 3, Flinders Street 12 and 13, and Richmond 5 and 6.
+- Southern Cross regional platforms 2, 3, 4, 5, 7, 8, 15 and 16 now show door sides on V/Line trains, including Gippsland trains that leave south through Flinders Street (their doors are on the other side).
+- South Yarra 5 and 6 and Brighton Beach 1 are still blank: what we were told about them didn't match the platforms we already know.
+
+### v1.103.260 · Door sides at Frankston, Hawthorn, Cheltenham, Macleod and West Footscray
+<sub>27 November 2026</sub>
+
+- Checked on the platform: Frankston 1 (right leaving for the city, left arriving), Hawthorn 3 (left, outbound), Cheltenham 2 (right, to the city), Macleod 3 (left, to the city) and West Footscray 2 (right, to the city through the tunnel).
+
+### v1.103.259 · Door sides for 20 more platforms
+<sub>27 November 2026</sub>
+
+- Door sides added for Richmond 10, the third platforms at Glenferrie, Auburn, East Camberwell, Canterbury and Chatham, Jolimont-MCG 2, Watergardens 2, Westall 3, Laverton 2, and the end platforms at Sunbury, Craigieburn, Lilydale, East Pakenham, Cranbourne, Glen Waverley, Mernda and Werribee (leaving and arriving).
+- These were worked out from where each platform sits beside the track, checked against the platforms already known (the method got 278 of 279 right) and against Union platform 3. Spotted one that's wrong? Report it and it'll be fixed.
+- St Albans: both platforms' door sides were in the app but never showed, because the station was spelt "St. Albans". Fixed.
+
+### v1.103.258 · Your trip on the map follows the tracks and the roads
+<sub>27 November 2026</sub>
+
+- A started trip's line on the map now follows the real railway, tram track and bus route, instead of jumping in straight lines from stop to stop. Express trains follow the track past the stations they skip.
+- Trams and buses use their route's published line through your stops. Where that can't be matched, the old stop-to-stop line is still shown.
+- Your trip's line is drawn above the railway lines, so a train leg no longer disappears under the line it runs on.
+- Union platform 3: doors open on the left.
+
+### v1.103.257 · Your trip offers the train that's actually next, and tapping a bus finds the right one
+<sub>27 November 2026</sub>
+
+- On a started trip, the next train you can make is the real next one. Running early used to hide every train before the one the plan first picked: at Richmond at 7:48 it offered the 8:04 Belgrave ("18 min connection wait") while a Belgrave express left in a minute. Once you've finished a leg, each change now uses the live board from now.
+- Planning from your location while you're at the station (within 150 m) no longer adds a walk to the platform, so a train leaving in a minute or two isn't dropped as already gone.
+- Tapping a bus on a stop board no longer jumps to a different bus on the same route: a nearby bus whose own times are more than 5 minutes off this trip's is now left alone, and the trip's estimated position is shown instead.
+- Buses arriving to end their trip at a stop now show their fleet number ("#178") when the bus is in the fleet register.
+
+### v1.103.256 · Estimated trams now say which tram they are
+<sub>26 November 2026</sub>
+
+- Trams with no GPS now show their fleet number and class ("D2 · 5003") from Yarra Trams' TramTracker, matched by route and arrival time at their next stop. Their position is still estimated, and still drawn faded.
+- If TramTracker shows an estimated tram is really a tram already on the map from GPS, the duplicate estimate is removed.
+- Stop names no longer show PTV's internal codes ("D14-Southern Cross Station" now reads "Southern Cross Station") in a tram's next stop and stop list.
+
+### v1.103.255 · Estimated trams read properly
+<sub>26 November 2026</sub>
+
+- An estimated tram's card said "This train isn't sending GPS". It now says tram (or bus).
+- Estimated trams no longer show a long trip code ("03-72--36-T5-...") as if it were their fleet number on the map.
+- The card no longer has two Position rows: GPS now reads "Not sending · position estimated".
+
+### v1.103.254 · Tram headings name the place
+<sub>26 November 2026</sub>
+
+- Trams and buses heading to a named place on a street corner now say where they're going: "To Victoria Harbour Docklands" instead of "To Victoria Harbour Docklands/Collins St". Two street names ("High St/Doncaster Rd") still stay whole.
+
+### v1.103.253 · Disruptions in line colours
+<sub>26 November 2026</sub>
+
+- Disruption cards on the map show each affected line as a chip in its own colour (Mernda red, Frankston green, V/Line purple), so you can see at a glance if it's your line.
+- A short disruption card no longer leaves a big empty gap over the map: the banner now fits the card you're looking at.
+- Live map: right after an update, estimated trams now appear within a few seconds instead of up to 20.
+
+### v1.103.252 · Tram door sides, and two station-sign themes
+<sub>26 November 2026</sub>
+
+- Trams: tap a tram on the map and its stop list now shows which side the doors open at each stop (Doors left / Doors right), worked out from where PTV's boarding points sit on each side of the road. Stops with a single shared platform stay blank rather than guessed.
+- Trip planner: the door side at a tram's first stop was worked out backwards and could show the wrong side. Fixed.
+- New theme: Metlink era. The 2000s platform signs, so page titles read like the white station sign with a line-colour stripe.
+- New theme: Station signs. Today's charcoal station signage with a line-colour flag on every page title.
+
+### v1.103.251 · No ghost trains off the map
+<sub>26 November 2026</sub>
+
+- Fleet, Meet a train, passing trains, alerts and station pages no longer count a train or tram that has just dropped out of the live feed. Only the live map keeps those briefly, faded, so they don't flicker.
+- Platform display: a link to a lettered platform ("15B") keeps it selected in the platform picker instead of showing it blank.
+- Platform display: V/Line-only stations (Geelong, Ballarat, Melton…) no longer ask for metro times they can't have.
+
+### v1.103.250 · Trams without GPS on the map
+<sub>26 November 2026</sub>
+
+- Live map: some running trams send no GPS (on a bad night a whole route like the 64 could look empty). Those trams now appear where their live stop times place them, drawn faded and marked "Estimated from its live times, not GPS". Each one switches to its real position the moment it reports one.
+- Estimates are never recorded as sightings, fleet history or on-board checks.
+
+### v1.103.249 · Hidden trams go straight away
+<sub>26 November 2026</sub>
+
+- Live map: switching trams (or trains) off now removes them immediately, instead of leaving faded copies on the map for up to two and a half minutes.
+
+### v1.103.248 · Tidier tram destinations
+<sub>26 November 2026</sub>
+
+- Live map: a tapped tram's label now reads its destination as a place ("Central Pier") instead of the raw timetable stop name with its internal code ("D2-Central Pier/Harbour Esp"), matching the rest of the map.
+
+### v1.103.247 · Trams show where they're going
+<sub>26 November 2026</sub>
+
+- Live map: a tram's bubble and its details now name where the tram is heading (its terminus), instead of just "Route 59". The tram feed carries no destination of its own, so it's taken from the end of the tram's trip. The details card still prefers the published run destination when it has one.
+
+### v1.103.246 · Trams look steadier on the map
+<sub>26 November 2026</sub>
+
+- Live map: trams no longer fade or flicker just because Yarra Trams' feed is slow. A tram's position is treated as live for a bit longer (its feed runs about a minute and a half behind by nature), and a tram that briefly drops out is held on the map longer before it's removed. Genuinely dead positions still fade.
+
+### v1.103.245 · Trams stop flickering off the map
+<sub>26 November 2026</sub>
+
+- Live map: when the tram feed briefly drops a tram (a tunnel, a depot, a GPS blip), it now stays on the map at its last position, faded, for a short while instead of vanishing and popping back. Trams get the longest grace since Yarra Trams' feed is the patchiest; buses get none, since a bus leaving is usually just you panning the map.
+
+### v1.103.244 · Open any V/Line station's platform display by name
+<sub>26 November 2026</sub>
+
+- Platform displays: typing or linking a V/Line station by its plain name now works (e.g. /pid?station=Geelong), not just the exact "Geelong Railway Station". Southern Cross still lists all 16 platforms.
+
+### v1.103.243 · Platform displays now work for V/Line stations
+<sub>26 November 2026</sub>
+
+- Platform displays: you can now open a station screen for V/Line-only stations like Melton, Cobblebank, Ballarat, Geelong and Seymour, not just the shared city ones. They were missing from the picker and wouldn't load before.
+
+### v1.103.242 · Alamein and Williamstown 3-car shuttles shown correctly
+<sub>26 November 2026</sub>
+
+- Trains: the Alamein and Williamstown shuttles genuinely run single 3-car X'Trapolis units, so they're now shown as 3-car there. Everywhere else a lone 3-car reading is still treated as a 6-car train with a dropped partner, as before.
+
+### v1.103.241 · Half-reported trains no longer look like 3-car services
+<sub>26 November 2026</sub>
+
+- Trains: when the live feed reports only one 3-car unit of a Comeng, X'Trapolis 100 or Siemens, it's now shown as the 6-car train it really is, not a 3-car service (Melbourne doesn't run those as 3-car). The known car numbers are unchanged; we still borrow the partner's numbers from recent history when we can.
+
+### v1.103.240 · Route 509 now shows its real operator, more bus power types filled
+<sub>26 November 2026</sub>
+
+- Buses: route 509 is now shown as Kinetic, not Dysons. Every registered bus seen on it over the last 45 days is Kinetic, matching the neighbouring 503-508 routes.
+- Fleet: filled in the power type (diesel) for three buses that were missing it (Ventura 877 and 842, Kinetic 222).
+
+### v1.103.239 · Top search result no longer hides behind the filters
+<sub>26 November 2026</sub>
+
+- Map search: on phones the results list now opens below the Saved/Filters/Trains row instead of starting underneath it, so the first station (and the filter chips) stay fully visible.
+
+### v1.103.238 · Picking an address on a phone now sticks
+<sub>26 November 2026</sub>
+
+- Plan a trip: tapping an address or stop from the From/To suggestions on a phone now selects it reliably. The list no longer closed itself a split second before your tap landed.
+
+### v1.103.237 · Search results no longer hide behind the keyboard
+<sub>26 November 2026</sub>
+
+- Map search: on phones, the results list is now capped to the space above the on-screen keyboard, so lower stations like Bunyip stay visible and tappable instead of sliding under the keyboard.
+
+### v1.103.236 · Ballarat, Bendigo and Gippsland trains back on platform displays
+<sub>26 November 2026</sub>
+
+- Platform displays and boards: V/Line trains whose line name says "via" (Ballarat via Melton, Bendigo via Gisborne, Traralgon via Morwell, Seymour, Shepparton) were mistaken for coaches and left off. They now show on every platform at Southern Cross, with Geelong.
+- Platform displays: a platform screen now says Loading while V/Line times are still coming in, rather than saying no trains are announced.
+
+### v1.103.235 · Saved stops up front, every Southern Cross platform
+<sub>26 November 2026</sub>
+
+- Map: Saved stops now sit at the start of the button row, right after Home, instead of off the edge of the screen on phones.
+- Map: Sydney and NSW trains moved out of the main row into Filters, under Other states. The Lines button is now called Filters, because it also has train types and search.
+- Platform displays: Southern Cross lists all 16 platforms, not just the ones with a train in the next few minutes. Picking Platform 2 also shows trains on 2A and 2B, and if V/Line hasn't announced a platform yet the screen says so.
+
+### v1.103.234 · City Loop trains explain themselves
+<sub>26 November 2026</sub>
+
+- Plan a trip: a train signed Flinders Street that goes round the City Loop now says so, like "It goes round the City Loop first, stopping at Parliament and Melbourne Central", so you know it's the right train for the Loop.
+
+### v1.103.233 · Line colours on every step
+<sub>26 November 2026</sub>
+
+- Plan a trip: each train step now has a badge in the line's colour, so you can tell your trains apart at a glance.
+
+### v1.103.232 · Know which platform at a change
+<sub>26 November 2026</sub>
+
+- Plan a trip: when you change trains, the steps now say which platform the next train leaves from and which one you arrive on, or that it's the same platform.
+- Plan a trip: "Get off at" shows the platform you arrive on, and the missed-train line now reads plainly: "Miss it? The next trains are 7:16 am and 7:24 am."
+
+### v1.103.231 · Stations say Station
+<sub>26 November 2026</sub>
+
+- Plan a trip: train stations are now named in full, like "Footscray Station" and "Get off at Sandringham Station", so a station can't be mistaken for the suburb or a tram or bus stop. This covers the From and To boxes, the search list, walking directions and trip alerts.
+- Plan a trip: cross-city trains now read the way the sign does, like "Take the train towards Sandringham. It runs through the city, so it's a Williamstown line train until Flinders Street."
 
 ### v1.103.230 · Who makes TransitAlert
 <sub>26 November 2026</sub>
