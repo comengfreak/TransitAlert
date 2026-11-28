@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 398 entries, up to version 1.103.338. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 399 entries, up to version 1.103.339. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 194 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 195 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -19,10 +19,18 @@ Every TransitAlert update since the first commit on 13 April 2026: 398 entries, 
 
 ## 22–30 November 2026
 
+### v1.103.339 · The other cities' map, done properly
+<sub>29 November 2026</sub>
+
+- Beta map: Sydney, Brisbane, Adelaide, Perth, Hobart, Darwin and the rest now work like Melbourne's map. Search for a stop, station or route in the top bar, turn trains, trams, buses and ferries on and off with the same buttons, and tap a stop for a details card with its lines in their colours and departures laid out like Melbourne's boards.
+- Tap a line to see it on the map with every stop in order, or a vehicle to see its route. Station names show on the map, and Disruptions has its own button, with today's first.
+- Lines are called what's on the platform: Adelaide's Outer Harbor, not OUTHA; Brisbane's Airport – Beenleigh, not BDBN. Each route shows once, not once per timetable pattern.
+- Adelaide Metro's disruption notices no longer show HTML code. A failed Sydney board says so plainly instead of showing an error message.
+
 ### v1.103.338 · Departure times at every stop interstate
 <sub>29 November 2026</sub>
 
-- Tap any stop in Brisbane, the Gold Coast, Sunshine Coast, Cairns, regional Queensland, Adelaide, Perth, Tasmania, Darwin or Alice Springs and see its next departures, with where each service is going. Before, Perth, Tasmania, Darwin, Alice Springs and regional Queensland showed nothing, because their operators publish no live times.
+- Beta map: tap any stop in Brisbane, the Gold Coast, Sunshine Coast, Cairns, regional Queensland, Adelaide, Perth, Tasmania, Darwin or Alice Springs and see its next departures, with where each service is going. Before, Perth, Tasmania, Darwin, Alice Springs and regional Queensland showed nothing, because their operators publish no live times.
 - Where there are live times (Brisbane, Cairns, Adelaide) they're shown over the timetable, marked Live; the rest are marked Timetable. Times are in the stop's own time zone.
 
 ### v1.103.337 · The full timetable with no signal
