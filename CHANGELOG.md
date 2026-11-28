@@ -1,12 +1,12 @@
 # TransitAlert changelog
 
-Every TransitAlert update since the first commit on 13 April 2026: 383 entries, up to version 1.103.323. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
+Every TransitAlert update since the first commit on 13 April 2026: 384 entries, up to version 1.103.324. The same notes are in the app at [transit-alert.com/changelog](https://transit-alert.com/changelog).
 
 ## Every week and month
 
 | When | Updates |
 | --- | --- |
-| [22–30 November 2026](changelog/2026-11-22.md) | 179 |
+| [22–30 November 2026](changelog/2026-11-22.md) | 180 |
 | [15–21 November 2026](changelog/2026-11-15.md) | 65 |
 | [8–14 November 2026](changelog/2026-11-08.md) | 42 |
 | [1–7 November 2026](changelog/2026-11-01.md) | 34 |
@@ -18,6 +18,12 @@ Every TransitAlert update since the first commit on 13 April 2026: 383 entries, 
 | [April 2026](changelog/2026-04.md) | 7 |
 
 ## 22–30 November 2026
+
+### v1.103.324 · Screen readers hear platform changes, and where every train is going
+<sub>28 November 2026</sub>
+
+- Departure boards: when a train in the next hour changes platform or is cancelled, VoiceOver and TalkBack say so once ("Platform change: the 5:42 pm to Lilydale now leaves from platform 3"), without re-reading the board.
+- Live map: every train's name now says where it's going, the same destination its popup shows, not only the ones whose final stop the live feed had listed.
 
 ### v1.103.323 · Lift outages in step-free trips, and a map that says where trains are going
 <sub>28 November 2026</sub>
